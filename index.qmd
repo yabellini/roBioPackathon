@@ -12,7 +12,7 @@ format:
 
 * [R-Ladies](https://rladies.org) Leadership Team.
 
-* [The Carpentries](https://carpentries.org) Instructor, Trainer, and Boar of Director Vice Chair. 
+* [The Carpentries](https://carpentries.org) Instructor, Trainer, and Board of Director Vice Chair. 
 
 * [Austral University](https://www.austral.edu.ar) Adjunct Professor (Argentina)
 
@@ -74,7 +74,6 @@ Building capacity of software users and developers and fostering a sense of prid
 * Constructive 
 * Non-adversarial 
 * Open
-* 100% Acceptance  
 
 :::
 :::
