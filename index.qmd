@@ -1,25 +1,196 @@
 ---
-title: "rOpenSci"
+title: "rOpenSci and the Peer-Review of Research Software"
 author: "Yani Bellini Saibene"
-format: revealjs
-editor: visual
+format: 
+  revealjs:
+    footer: "Bio'Pack'athon 2024 #12 - Yani Bellini Saibene (yabellini@ropensci.org)"
 ---
 
-## Quarto
+## こんにちは - Who I'm ? :-) 
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+* [rOpenSci](https://rladies.org) Community Manager.
 
-## Bullets
+* [R-Ladies](https://rladies.org) Leadership Team.
 
-When you click the **Render** button a document will be generated that includes:
+* [The Carpentries](https://carpentries.org) Instructor, Trainer, and Boar of Director Vice Chair. 
 
--   Content authored with markdown
--   Output from executable code
+* [Austral University](https://www.austral.edu.ar) Adjunct Professor (Argentina)
 
-## Code
+* [GitHub Star](https://stars.github.com/profiles/yabellini/).
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+* Former researcher (1998-2022) at the National Institute of Agricultural Technology (Argentina).
 
-```{r}
-1 + 1
-```
+## Communities of Practice
+
+> groups of people who **share a 
+passion** for something that they **know 
+how to do**, and who **interact regularly** 
+in order to **learn how to do it better** -- _Etienne Wenger_
+
+## rOpenSci {.smaller}
+
+we are a group of people who passion is __open and reproducible research__ for everyone, build it by everyone. And we know how to do it by creating __technical and social infrastructure__. 
+
+:::: {.columns}
+
+::: {.column width="60%"}
+::: {.incremental}
+- Creating a suite of carefully vetted, federated R software tools.
+- Making the right data, tools and best practices more discoverable.
+- Welcoming and diverse community.
+- Building capacity of software users and developers and fostering a sense of pride in their work. 
+- Promoting advocacy for a culture of data sharing and reusable software.
+:::
+:::
+
+::: {.column width="40%"}
+![](images/computadora_dos.png) 
+:::
+
+::::
+
+::: footer
+<https://ropensci.org>
+:::
+
+::: {.notes}
+We do this creating a suite of carefully vetted, federated R software tools. Developers of research software send their package to our review process, and after they pass, the package is part of our suite. Developers get support on from our staff and from the community. Users get high quality software to do science.
+
+Making the right data, tools and best practices more discoverable. Our R-Universe platform allows to publish and search more than 18000 R packages. 
+
+Welcoming and diverse community through a code of conduct, our Champions Program and our multilingual publishing efforts. 
+
+Building capacity of software users and developers and fostering a sense of pride in their work with the projets I already mention, but also by publishing online books, organizing community call and co-working session, higlighing developer with interviews and creating contect on our web pages, forum and newsletter.
+:::
+ 
+## (Statistical) Software Peer-Review
+
+:::: {.columns}
+
+::: {.column }
+::: {.incremental}
+
+* Transparent
+* Constructive 
+* Non-adversarial 
+* Open
+* 100% Acceptance  
+
+:::
+:::
+
+::: {.column width="40%"}
+::: {.incremental}
+![](images/devguide-cover.png) 
+:::
+:::
+
+::::
+
+::: footer
+Everything you need to know is in [devguide.ropensci.org](https://devguide.ropensci.org/) [stats-devguide.ropensci.org](https://stats-devguide.ropensci.org/)
+:::
+
+## How it works?
+
+1. **Pre-inquiry** to check **scope** to our two software-review streams: scientific data lifecycles and statistical algorithms.
+
+. . .
+
+2. **Peer-review**: license, documentation, test coverage, usability, quality, stile.
+
+. . .
+
+3. **Accepted**: badge and add to our suite.
+
+::: footer
+Everything you need to know is in [devguide.ropensci.org](https://devguide.ropensci.org/) [stats-devguide.ropensci.org](https://stats-devguide.ropensci.org/)
+:::
+
+## Scope Scientifics Data Lifecycles
+
+* data deposition
+* data validation and testing
+* workflow automation
+* version control
+* citation management and bibliometrics
+* scentific software wrappers
+* field and laboratory reproducibility tools
+* database software bindings
+
+::: footer
+Everything you need to know is in [devguide.ropensci.org](https://devguide.ropensci.org/) 
+:::
+
+## Scope Statistical Algorithms
+
+* Bayesian and Monte Carlo software
+* Exploratory Data Analysis and Summary Statistics
+* Machine Learning Software
+* Regression and Supervised Learning
+* Spatial Software
+* Time Series Software
+* Dimensionality Reduction, Clustering, and Unsupervised Learning
+* Probability Distributions
+
+::: footer
+Everything you need to know is in [stats-devguide.ropensci.org](https://stats-devguide.ropensci.org/)
+:::
+
+## Some numbers 
+
+* **200+** scientific software packages 
+* **577** reviewers
+* **700** unique contributors
+* **19,452,200** downloads
+
+## Why to Participate?
+
+::: incremental
+
+* Improve software quality.
+
+* Software as a genuine research output.
+  * Agreements with journal for a fast track review. 
+
+* Become part of a community of practice of users and developers around Research Software Engineering:
+  * Allow innovation on tools & practices.
+  * Eases software dev & maintenance.
+  * Enhances software longevity.
+  * Fosters collaboration.
+  
+:::  
+
+## Why to Participate? Examples {.smaller}
+
+::: incremental
+
+* Support the generation of the package documentation website.
+* Help looking for co-maintainers and contributors.
+* Highlight your work in our blog, newsletter, and social media.
+* Create the space for the community answer questions and help to solve problems.
+* Create the space to discuss new ideas.
+* Skills ups opportunities: co-working sessions, community calls, mentoring, training.
+* Share funding, jobs, events and collaboration opportunities.
+* Support when you need to retire a package.
+
+:::
+
+## More resources {.smaller}
+
+* [rOpenSci Software Peer-Review](https://ropensci.org/software-review/)
+
+* [Submit a package](https://github.com/ropensci/software-review)
+
+* [Other ways to contribute to rOpenSci](https://contributing.ropensci.org)
+
+* [rOpenSci Community Forum](https://discuss.ropensci.org)
+
+### Contact info
+* [@yabellini.bsky.social](https://bsky.app/profile/yabellini.bsky.social)
+* [@yabellini@fosstodon.org](https://fosstodon.org/@yabellini)
+* yabellini@ropensci.org 
+
+
+### ご清聴ありがとうございました
+
